@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>getYoutube.com</title>
+    <link rel="stylesheet" href="youtubeClone.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <!----------Navbar section------------------>
+    <section id="section">
+      <div class="nav-section">
+        <div class="column1">
+          <a href="#">
+            <ion-icon name="menu-outline" class="ion clickedBtn headerIcon">
+            </ion-icon
+          ></a>
+
+          <img
+            src="/IconsAndProfile/youtube-logo.svg"
+            alt=""
+            style="height: 22px"
+          />
+        </div>
+        <div class="column2">
+          <div class="input">
+            <input class="nav-input" type="text" placeholder="Search" />
+
+            <ion-icon name="search-outline" class="searck"></ion-icon>
+          </div>
+          <a href="#" class="headerIcon">
+            <ion-icon name="mic-outline" class="voice headerIcon"></ion-icon
+          ></a>
+        </div>
+        <div class="column3">
+          <a href="#" class="headerIcon">
+            <ion-icon name="videocam-outline"></ion-icon
+          ></a>
+
+          <a href="#" class="notification-icon headerIcon">
+            <ion-icon name="notifications-outline"></ion-icon>
+            <span class="notification">3</span>
+          </a>
+
+          <img src="/videoAndImgUsed/unnamed.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-------------------MAIN SECTION------------------------->
+
+    <section id="section2 ">
+      <div class="container-fluid main-container">
+        <!-------------------------SIDE BAR SECTION----------------------------->
+        <div class="row-fluid position-relative">
+          <div
+            class="col-md-2 sidebar d-none d-md-flex flex-column py-3 ps-2"
+            id="sidebar"
+          >
+            <div class="container-fluid">
+              <div class="row flex-column gap-1">
+                <div class="col sidebarActive">
+                  <ion-icon name="home-outline"></ion-icon> <span>Home</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="film-outline"></ion-icon> <span>shorts</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="albums-outline"></ion-icon>
+                  <span>Subscription</span>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="container-fluid">
+              <p class="side-header">
+                Your.... <ion-icon name="chevron-forward-outline"></ion-icon>
+              </p>
+              <div class="row flex-column gap-1">
+                <div class="col sidebar-col">
+                  <ion-icon name="folder-outline"></ion-icon>
+                  <span>Your channel</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="reload-circle-outline"></ion-icon>
+                  <span>History</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="musical-notes-outline"></ion-icon>
+                  <span>Playlist</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="play-outline"></ion-icon>
+                  <span>Your videos</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="time-outline"></ion-icon>
+                  <span>Watch later</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="thumbs-up-outline"></ion-icon>
+                  <span>Liked videos</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="cloud-download-outline"></ion-icon>
+                  <span>Downloads</span>
+                </div>
+
+                <div class="col sidebar-col">
+                  <ion-icon name="musical-notes-outline"></ion-icon>
+                  <span>Playlist</span>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="container-fluid">
+              <p class="side-header">Subscriptions</p>
+              <div class="row flex-column gap-1">
+                <div class="col sidebar-col Subscription">
+                  <img src="/youtubeChannel/channels4_profile.jpg" alt="" />
+                  <span>GreatStack</span
+                  ><span><ion-icon name="pulse-outline"></ion-icon></span>
+                </div>
+
+                <div class="col sidebar-col Subscription">
+                  <img src="/youtubeChannel/channels4_profile (1).jpg" alt="" />
+                  <span>CodingWithEase</span
+                  ><span><ion-icon name="pulse-outline"></ion-icon></span>
+                </div>
+
+                <div class="col sidebar-col Subscription">
+                  <img src="/youtubeChannel/channels4_profile (2).jpg" alt="" />
+                  <span>Adrien Twarog</span>
+                </div>
+                <div class="col sidebar-col Subscription">
+                  <img src="/youtubeChannel/channels4_profile (3).jpg" alt="" />
+                  <span>Fajar Std</span>
+                </div>
+                <div class="col sidebar-col Subscription">
+                  <img src="/youtubeChannel/channels4_profile (4).jpg" alt="" />
+                  <span>CodingNepal+</span>
+                </div>
+                <div class="col sidebar-col Subscription">
+                  <img src="/youtubeChannel/channels4_profile (5).jpg" alt="" />
+                  <span>Code wih Yousaf</span>
+                </div>
+                <div class="col sidebar-col Subscription">
+                  <img src="/youtubeChannel/channels4_profile (6).jpg" alt="" />
+                  <span>Coding League</span>
+                </div>
+                <p class="side-header pt-2 mb-0">
+                  <ion-icon name="chevron-down-outline"></ion-icon>Show more
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div class="container-fluid">
+              <p class="side-header">Explore</p>
+              <div class="row flex-column gap-1">
+                <div class="col sidebar-col">
+                  <ion-icon name="flame-outline"></ion-icon
+                  ><span>Trending</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="musical-note-outline"></ion-icon
+                  ><span>Music</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="pulse-outline"></ion-icon>
+                  <span>Live</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="game-controller-outline"></ion-icon>
+                  <span>Gaming</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="newspaper-outline"></ion-icon>
+                  <span>News</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="trophy-outline"></ion-icon>
+                  <span>Sports</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                  <span>Learning</span>
+                </div>
+                <div class="col sidebar-col" style="white-space: nowrap">
+                  <ion-icon name="flower-outline"></ion-icon>
+                  <span>Fashion &amp; Beauty</span>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <hr />
+              <div class="row flex-column gap-1">
+                <div class="col sidebar-col Subscription">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M20.919 13.176c.048-.384.084-.768.084-1.176s-.036-.792-.084-1.176l2.532-1.98a.605.605 0 0 0 .144-.768l-2.4-4.152a.6.6 0 0 0-.732-.264l-2.988 1.2a8.8 8.8 0 0 0-2.028-1.176l-.456-3.18A.585.585 0 0 0 14.403 0h-4.8c-.3 0-.552.216-.588.504l-.456 3.18A9.2 9.2 0 0 0 6.531 4.86l-2.988-1.2a.585.585 0 0 0-.732.264l-2.4 4.152a.59.59 0 0 0 .144.768l2.532 1.98c-.048.384-.084.78-.084 1.176s.036.792.084 1.176l-2.532 1.98a.605.605 0 0 0-.144.768l2.4 4.152c.144.264.468.36.732.264l2.988-1.2c.624.48 1.296.876 2.028 1.176l.456 3.18a.585.585 0 0 0 .588.504h4.8c.3 0 .552-.216.588-.504l.456-3.18a9.2 9.2 0 0 0 2.028-1.176l2.988 1.2c.276.108.588 0 .732-.264l2.4-4.152a.605.605 0 0 0-.144-.768zM9.603 15.6V8.4l6 3.6z"
+                    />
+                  </svg>
+                  <span>YouTube Studio</span>
+                </div>
+                <div class="col sidebar-col Subscription">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 72 72"
+                  >
+                    <path
+                      fill="#ea5a47"
+                      d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"
+                    />
+                    <path fill="#fff" d="M30.05 44.65L45.256 36L30.05 27.35Z" />
+                    <g
+                      fill="none"
+                      stroke="#000"
+                      stroke-miterlimit="10"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M63.874 21.906a7.31 7.31 0 0 0-5.144-5.177C54.193 15.505 36 15.505 36 15.505s-18.193 0-22.73 1.224a7.31 7.31 0 0 0-5.144 5.177C6.91 26.472 6.91 36 6.91 36s0 9.528 1.216 14.095a7.31 7.31 0 0 0 5.144 5.177C17.807 56.495 36 56.495 36 56.495s18.193 0 22.73-1.223a7.31 7.31 0 0 0 5.144-5.177C65.09 45.528 65.09 36 65.09 36s0-9.528-1.216-14.094"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M30.05 44.65L45.256 36L30.05 27.35Z"
+                      />
+                    </g>
+                  </svg>
+                  <span>YouTube Kids</span>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <hr />
+              <div class="row flex-column gap-1">
+                <div class="col sidebar-col">
+                  <ion-icon name="settings-outline"></ion-icon
+                  ><span>Settings</span>
+                </div>
+                <div class="col sidebar-col">
+                  <ion-icon name="flag-outline"></ion-icon
+                  ><span>Report history</span>
+                </div>
+                <div class="col sidebar-col Subscription">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M11.5 4A8.5 8.5 0 0 0 3 12.5a8.5 8.5 0 0 0 8.5 8.5a8.5 8.5 0 0 0 8.5-8.5A8.5 8.5 0 0 0 11.5 4m0-1a9.5 9.5 0 0 1 9.5 9.5a9.5 9.5 0 0 1-9.5 9.5A9.5 9.5 0 0 1 2 12.5A9.5 9.5 0 0 1 11.5 3M11 17h1v2h-1zm.5-11A3.5 3.5 0 0 1 15 9.5c0 .9-.7 1.5-1.44 2.18l-.93.9c-.59.67-.66 1.95-.63 2.39V15h-1c0-.05-.1-1.96.87-3.08l1.03-.99c.6-.53 1.1-.98 1.1-1.43A2.5 2.5 0 0 0 11.5 7A2.5 2.5 0 0 0 9 9.5H8A3.5 3.5 0 0 1 11.5 6"
+                    />
+                  </svg>
+                  <span>Help</span>
+                </div>
+                <div class="col sidebar-col Subscription">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 14.423q.271 0 .443-.172q.173-.172.173-.443q0-.272-.173-.444q-.172-.172-.443-.172t-.443.172t-.173.444t.173.443t.443.172m-.5-2.961h1V5.385h-1zM3 20.077V4.616q0-.691.463-1.153T4.615 3h14.77q.69 0 1.152.463T21 4.616v10.769q0 .69-.463 1.153T19.385 17H6.077zM5.65 16h13.735q.23 0 .423-.192t.192-.423V4.615q0-.23-.192-.423T19.385 4H4.615q-.23 0-.423.192T4 4.615v13.03zM4 16V4z"
+                    />
+                  </svg>
+                  <span>Send feedback</span>
+                </div>
+                <hr />
+              </div>
+            </div>
+            <div class="footer">
+              <p style="color: gray; font-size: 13px">
+                About Press Copyright Contact us Creators Advertise Developers
+              </p>
+              <p style="color: gray; font-size: 13px">
+                Term Privacy Policy &amp; Safety How YouTube works
+              </p>
+            </div>
+          </div>
+          <!-------------------VIDEO SECTION---------------------------------->
+
+          <div class="col-md-10 video-fild p-0">
+            <div class="container-fluid">
+              <div class="header-video d-none d-md-flex">
+                <div class="intrested">Music</div>
+                <div class="intrested">JavaScript</div>
+                <div class="intrested">News</div>
+                <div class="intrested">Live</div>
+                <div class="intrested">Troops</div>
+                <div class="intrested">Computer files</div>
+                <div class="intrested">Mixes</div>
+                <div class="intrested">Thrillers</div>
+                <div class="intrested">Playlists</div>
+                <div class="intrested">Aligorthm</div>
+                <div class="intrested">Aligorthm</div>
+                <div class="intrested">News</div>
+                <div class="intrested">Live</div>
+                <div class="intrested">Troops</div>
+                <div class="intrested">Computer files</div>
+                <div class="intrested">Mixes</div>
+              </div>
+              <div class="row-fluid video-sect content">
+                <div
+                  class="row row-cols-md-3 row-cols-lg-4 row-cols-sm-2"
+                  id="content"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------SCRIPT SECTION--------------->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/node_modules/@popperjs/core/dist/cjs/popper.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="youtubeClone.js"></script>
+  </body>
+</html>
